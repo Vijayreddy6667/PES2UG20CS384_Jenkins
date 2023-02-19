@@ -11,7 +11,7 @@ pipeline{
         stage('Test'){
             steps{
                 sh './PES2UG20CS384'
-                echo 'Test stage executed successfully'
+                echoo 'Test stage executed successfully'
             }
         }
         stage('Deploy'){
